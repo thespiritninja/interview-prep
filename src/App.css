@@ -100,3 +100,17 @@
   border: 1px solid #ddd;
   padding: 10px;
 }
+
+.memoryGame {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.memoryCell {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+}
+.fileExplorer {
+  text-align: left;
+}
