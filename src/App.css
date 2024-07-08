@@ -114,3 +114,14 @@
 .fileExplorer {
   text-align: left;
 }
+.passcode {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.zero {
+  grid-row-start: 4;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}

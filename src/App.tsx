@@ -5,6 +5,7 @@ import GuessColor from "./components/GuessColor";
 import SudokuSolver from "./components/SudokuSolver";
 import Tabs from "./utils/Tabs";
 import FileXplorer from "./components/FileXplorer";
+import Passcode from "./components/Passcode";
 
 function App() {
   const tabs = [
@@ -13,6 +14,7 @@ function App() {
     <SudokuSolver key="SudokuSolver" />,
     <DrawPoints key="DrawPoints" />,
     <FileXplorer key="FileXplorer" />,
+    <Passcode key="Passcode" />,
   ];
   return (
     <div className="App">
