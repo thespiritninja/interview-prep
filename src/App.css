@@ -81,7 +81,7 @@
 .tabs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
+  gap: 7px;
   max-width: 500px !important;
 }
 
@@ -94,14 +94,28 @@
 }
 
 .tab.active {
-  background-color: #a7a7a7;
+  background-color: #8a8a8a;
+  animation: none !important;
 }
-
+.tab:hover {
+  background-color: #bebebe;
+  animation: tabAnimator 1s linear infinite;
+}
 .tab-content {
   border: 1px solid #ddd;
   padding: 10px;
 }
-
+@keyframes tabAnimator {
+  0% {
+    box-shadow: 0 0 0 5px rgba(188, 237, 243, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(188, 237, 243, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 5px rgba(188, 237, 243, 0.3);
+  }
+}
 .memoryGame {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
