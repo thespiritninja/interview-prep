@@ -74,26 +74,27 @@
   background-color: white;
 }
 .tabs-container {
-  width: 400px;
+  width: 500px;
   margin: 20px auto;
 }
 
 .tabs {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  max-width: 500px !important;
 }
 
 .tab {
   cursor: pointer;
   padding: 10px;
-  margin-right: 10px;
   border: 1px solid #ddd;
-  border-bottom: none;
   color: black;
   background-color: #f1f1f1;
 }
 
 .tab.active {
-  background-color: #ddd;
+  background-color: #a7a7a7;
 }
 
 .tab-content {
