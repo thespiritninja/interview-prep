@@ -6,6 +6,7 @@ import SudokuSolver from "./components/SudokuSolver";
 import Tabs from "./utils/Tabs";
 import FileXplorer from "./components/FileXplorer";
 import Passcode from "./components/Passcode";
+import TrafficLights from "./components/TrafficLights";
 
 function App() {
   const tabs = [
@@ -15,6 +16,7 @@ function App() {
     <DrawPoints key="DrawPoints" />,
     <FileXplorer key="FileXplorer" />,
     <Passcode key="Passcode" />,
+    <TrafficLights key="TrafficLights" />,
   ];
   return (
     <div className="App">

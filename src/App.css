@@ -140,3 +140,34 @@
   grid-column-start: 2;
   grid-column-end: 3;
 }
+.red {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+}
+.yellow {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+.green {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: green;
+}
+.signs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.noSign {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: grey;
+}
